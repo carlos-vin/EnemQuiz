@@ -43,22 +43,22 @@ const testData=[
 	{
 		subject:"Matematica",
 		text:"As çsçkaçvlakfv çsja~sdçalsknvçsal sdfjçasodfjasvçslknvçsakjd slkdçlaksndçvlasndçfajsçlvkas sçldkjaçslkdas",
-		number:1
+		number:1,
 		alternatives:["asdfasfd","asdfasdf","asdfasdfasdf","asdfasdfasfd","asdfasdfs"]
 	},
 	{
 		subject:"Matematica",
 		text:"As çsçkaçvlakfv çsja~sdçalsknvçsal sdfjçasodfjasvçslknvçsakjd slkdçlaksndçvlasndçfajsçlvkas sçldkjaçslkdas",
-		number:1
+		number:1,
 		alternatives:["asdfasfd","asdfasdf","asdfasdfasdf","asdfasdfasfd","asdfasdfs"]
 	},
 	{
 		subject:"Matematica",
 		text:"As çsçkaçvlakfv çsja~sdçalsknvçsal sdfjçasodfjasvçslknvçsakjd slkdçlaksndçvlasndçfajsçlvkas sçldkjaçslkdas",
-		number:1
+		number:1,
 		alternatives:["asdfasfd","asdfasdf","asdfasdfasdf","asdfasdfasfd","asdfasdfs"]
 	},
 ]
 
 
-export {cardData}
+export {cardData, testData}

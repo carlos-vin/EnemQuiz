@@ -11,7 +11,7 @@ import { Star } from 'lucide-react';
 import {cardData} from "../data"
 
 export default function Home(){
-  return <Container className="w-full h-full items-center bg-[#f6f7f9]">
+  return <Container className="w-full h-full items-center bg-[#f6f7f9] ">
 					<div className="flex flex-col w-[60%] h-full items-center">
 
 					{/*Parte superior do container central*/}

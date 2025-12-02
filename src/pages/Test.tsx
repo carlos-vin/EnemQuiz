@@ -10,14 +10,28 @@ import { BrowserRouter, Routes, Route, Link, useNavigate} from 'react-router-dom
 import { Star } from 'lucide-react';
 
 import {cardData} from "../data"
+import {testData} from "../data"
 
 export default function Test(){
-  return <Container className="w-full h-[calc(100vh-52px)] items-center justify-center bg-[#f6f7f9]">
-	
-	{testData.map((e)=>(
-		<div>{props}</div>
-	)}
+  return (
+		
+				<Container className="w-full h-[calc(100vh-52px)] items-center justify-center bg-[#f6f7f9]">
+				  <TestContainer text={testData[0].text} alternatives={testData[0].alternatives}/>
+				  
+				  
+				  
+					
+					
+					{/*testData.map((e)=>{
+						return(
+						<div>{e.subject}</div>
+						)
+						
+					})*/}
 
-			
-		</Container>
+							
+				</Container>
+		
+		
+  )
 }
