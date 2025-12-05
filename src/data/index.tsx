@@ -42,9 +42,10 @@ const cardData = [
 const testData=[
 	{
 		subject:"Matematica",
-		text:"As çsçkaçvlakfv çsja~sdçalsknvçsal sdfjçasodfjasvçslknvçsakjd slkdçlaksndçvlasndçfajsçlvkas sçldkjaçslkdas",
+		text:"Para serem absorvidos pelas células do intestino humano, os lipídios ingeridos precisam ser primeiramente emulsificados. Nessa etapa da digestão, torna-se necessária a ação dos ácidos biliares, visto que os lipídios apresentam uma natureza apolar e são insolúveis em água.Esses ácidos atuam no processo de modo a:"
+,
 		number:1,
-		alternatives:["asdfasfd","asdfasdf","asdfasdfasdf","asdfasdfasfd","asdfasdfs"]
+		alternatives:["hidrolisar os lipídios","agir como detergentes.","tornar os lipídios anfifílicos.","promover a secreção de lipases.","estimular o trânsito intestinal dos lipídios"]
 	},
 	{
 		subject:"Matematica",

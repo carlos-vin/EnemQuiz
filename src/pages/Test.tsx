@@ -16,7 +16,7 @@ export default function Test(){
   return (
 		
 				<Container className="w-full h-[calc(100vh-52px)] items-center justify-center bg-[#f6f7f9]">
-				  <TestContainer text={testData[0].text} alternatives={testData[0].alternatives}/>
+				  <TestContainer subject={testData[0].subject} number={testData[0].number} text={testData[0].text} alternatives={testData[0].alternatives}/>
 				  
 				  
 				  
