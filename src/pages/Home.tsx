@@ -1,10 +1,8 @@
-import Header from "../components/Header"
-import MainContainer from "../components/MainContainer"
 import Container from "../components/Container"
 import CardContainer from "../components/CardContainer"
 import SubCard from "../components/SubCard"
 
-import { BrowserRouter, Routes, Route, Link, useNavigate} from 'react-router-dom';
+import { Link} from 'react-router-dom';
 
 import { Star } from 'lucide-react';
 
@@ -26,16 +24,16 @@ export default function Home(){
 							<div className="ml-2 text-lg font-semibold">Disciplinas Específicas</div>
 							<CardContainer className="">
 							{
-								cardData.map((e)=>{
+								cardData.map((e, i)=>{
 									return(
 									
-										<SubCard linkTo="/test" title={e.title} icon={e.icon}/>
+										<SubCard key={i} linkTo="/test" title={e.title} icon={e.icon}/>
 									)
 								})
 							}
 							</CardContainer>
 						</div>
-						<hr className="border-1 m-2 border-dotted w-full"/>	
+						<hr className="border m-2 border-dotted w-full"/>	
 					{/*Parte inferior*/}		
 						<Link to="/test" className="h-full w-full">
 							<h2 className="ml-2 text-lg font-semibold">Treino Completo</h2>
